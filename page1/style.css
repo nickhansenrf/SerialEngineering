@@ -1,0 +1,72 @@
+﻿/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	display: flex;
+	background-color: #000;
+}
+
+/* Style for left navigation */
+#left-nav {
+    background-color: #000;
+    padding: 20px;
+    height: 100vh;
+    width: 200px;
+    color: #0f0; /* Green text color */
+}
+
+/* Style for left navigation buttons */
+#left-nav button {
+    display: block;
+    margin-bottom: 10px;
+    width: 70%;
+    padding: 10px;
+    background-color: #111;
+    color: #0f0; /* Green text color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Style for left navigation button when hovered */
+#left-nav button:hover {
+    background-color: #222;
+}
+
+/* Style for content section */
+#content {
+	flex: 0 0 800px;
+	display: flex;
+	flex-direction: column;
+    padding: 20px;
+    background-color: #000;
+    color: #0f0; /* Green text color */
+}
+
+/* Style for website title */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0f0; /* Green text color */
+}
+
+/* Style for content paragraphs */
+p {
+    margin-bottom: 10px;
+}
+
+/* Style for footer */
+#flexfooter {
+	text-align: center;
+    margin-bottom: 10px;
+	
+	color: #0f0; /* Green text color */
+	background-color: #000;
+}
+
+head {
+
+}
