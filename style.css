@@ -1,6 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css?family=Ubuntu');
-@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
-
+﻿
 /* Reset some default styles */
 body, h1, p {
     margin: 0;
@@ -9,17 +7,17 @@ body, h1, p {
 
 body {
 	display: flex;
-	background-color: #000;
-	font-family: 'Ubuntu Mono';
+	background-color: #140442;
+	font-family: Geneva, Verdana, sans-serif;
 }
 
 /* Style for left navigation */
 #left-nav {
-    background-color: #000;
+    background-color: #140442;
     padding: 20px;
     height: 100vh;
     width: 200px;
-    color: #0f0; /* Green text color */
+    color: #85C148; /* Green text color */
 }
 
 /* Style for left navigation buttons */
@@ -28,18 +26,19 @@ body {
     margin-bottom: 10px;
     width: 70%;
     padding: 8px;
-    background-color: #111;
-    color: #0f0; /* Green text color */
+    background-color: #2E0A71;
+    color: #FFFFFF;
     border: none;
     border-radius: 2px;
     cursor: pointer;
-	font-family: 'Ubuntu Mono';
+	font-family: Geneva, Verdana, sans-serif;
 	font-size: 16px;
+	font-weight: 550;
 }
 
 /* Style for left navigation button when hovered */
 #left-nav button:hover {
-    background-color: #222;
+    background-color: #450FA9;
 }
 
 /* Style for content section */
@@ -48,15 +47,22 @@ body {
 	display: flex;
 	flex-direction: column;
     padding: 20px;
-    background-color: #000;
-    color: #0f0; /* Green text color */
+    background-color: #140442;
+    color: #FFFFFF; 
 }
 
 /* Style for website title */
 h1 {
     text-align: center;
+    margin-bottom: -10px;
+    color: #85C148; /* Green text color */
+}
+
+/* subtitle */
+h3 {
+    text-align: center;
     margin-bottom: 20px;
-    color: #0f0; /* Green text color */
+    color: #85C148; /* Green text color */
 }
 
 /* Style for content paragraphs */
@@ -69,10 +75,52 @@ p {
 	text-align: center;
     margin-bottom: 10px;
 	
-	color: #0f0; /* Green text color */
-	background-color: #000;
+	color: #85C148; /* Green text color */
+	background-color: #140442;
 }
 
-head {
+#console_body {
+  background: rgba(56, 4, 40, 0.9);
+  font-family: Geneva, Verdana, sans-serif;
+  height: calc(100% - 30px);
+  padding-top: 2px;
+  margin-top: -1px;
+}
 
+#console-prompt {
+  display: flex;
+}
+#console-uname {
+  color: #7eda30;
+}
+#console-path {
+  color: #4878c0;
+}
+#console-bang {
+  color: #dddddd;
+}
+#console-cursor {
+  display: block;
+  height: 17px;
+  width: 8px;
+  margin-left: 9px;
+  animation: blink 1200ms linear infinite;
+}
+
+@keyframes blink {
+  0% {
+    background: #ffffff;
+  }
+  49% {
+    background: #ffffff;
+  }
+  60% {
+    background: transparent;
+  }
+  99% {
+    background: transparent;
+  }
+  100% {
+    background: #ffffff;
+  }
 }
