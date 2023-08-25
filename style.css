@@ -7,13 +7,13 @@ body, h1, p {
 
 body {
 	display: flex;
-	background-color: #140442;
+	background-color: #0b0442;
 	font-family: Geneva, Verdana, sans-serif;
 }
 
 /* Style for left navigation */
 #left-nav {
-    background-color: #140442;
+    background-color: #0b0442;
     padding: 20px;
     height: 100vh;
     width: 200px;
@@ -47,7 +47,7 @@ body {
 	display: flex;
 	flex-direction: column;
     padding: 20px;
-    background-color: #140442;
+    background-color: #0b0442;
     color: #FFFFFF; 
 }
 
@@ -76,11 +76,11 @@ p {
     margin-bottom: 10px;
 	
 	color: #85C148; /* Green text color */
-	background-color: #140442;
+	background-color: #0b0442;
 }
 
 #console_body {
-  background: rgba(56, 4, 40, 0.9);
+  background: #0b0442;
   font-family: Geneva, Verdana, sans-serif;
   height: calc(100% - 30px);
   padding-top: 2px;
@@ -123,4 +123,18 @@ p {
   100% {
     background: #ffffff;
   }
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 0px 1px;
+  margin: 0px 0px;
+  display: inline-block;
+  border: none;
+  border-radius: 0px;
+  box-sizing: border-box;
+  background-color: #0b0442;
+  color: white;
+  outline: none;
+  font-family: Geneva, Verdana, sans-serif;
 }
