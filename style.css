@@ -26,7 +26,7 @@ body {
     margin-bottom: 10px;
     width: 70%;
     padding: 8px;
-    background-color: #2E0A71;
+    background-color: #061252;
     color: #FFFFFF;
     border: none;
     border-radius: 2px;
@@ -38,7 +38,7 @@ body {
 
 /* Style for left navigation button when hovered */
 #left-nav button:hover {
-    background-color: #450FA9;
+    background-color: #101b59;
 }
 
 /* Style for content section */
